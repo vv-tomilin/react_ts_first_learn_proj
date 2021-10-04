@@ -1,11 +1,14 @@
 import React from 'react';
+import { Navbar, TodoForm } from './components';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <h1>test</h1>
-      <p>Hello TypeScript</p>
-    </div>
+    <>
+      <Navbar/>
+      <div className="container">
+        <TodoForm/>
+      </div>
+    </>
   );
 }
 
